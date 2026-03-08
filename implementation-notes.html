@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Implementation Notes</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+    line-height:1.6;
+}
+
+h1{
+    color:#2c3e50;
+}
+
+h2{
+    margin-top:30px;
+    color:#34495e;
+}
+
+.section{
+    margin-bottom:20px;
+}
+
+code{
+    background:#f4f4f4;
+    padding:3px 6px;
+    border-radius:4px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Implementation Notes</h1>
+
+<div class="section">
+<h2>Overview</h2>
+<p>
+This Google Docs add-on provides tools for assisting with patent document drafting.
+The tools automate formatting, reference insertion, feature extraction,
+and text normalization tasks.
+</p>
+</div>
+
+
+<div class="section">
+<h2>Formatting Tools</h2>
+<ul>
+<li>Apply predefined font colors (Blue / Gray)</li>
+<li>Convert text to Title Case</li>
+<li>Convert text to lower case</li>
+</ul>
+</div>
+
+
+<div class="section">
+<h2>Reference Insertion</h2>
+<p>
+The reference tool supports:
+</p>
+
+<ul>
+<li>Paragraph references</li>
+<li>Page references</li>
+<li>Abstract references</li>
+</ul>
+
+<p>
+Example output:
+</p>
+
+<code>(see paragraph [0025])</code>
+
+</div>
+
+
+<div class="section">
+<h2>Date Tool</h2>
+
+<ul>
+<li>Insert today's date</li>
+<li>Insert a manually entered date</li>
+</ul>
+
+</div>
+
+
+<div class="section">
+<h2>Feature Extraction</h2>
+
+<p>
+Generates formatted feature text from structured document sections.
+</p>
+
+</div>
+
+
+<div class="section">
+<h2>Limitations</h2>
+
+<ul>
+<li>Tools require text selection in most cases.</li>
+<li>Formatting tools work only on text elements.</li>
+<li>Images and drawings are not supported.</li>
+</ul>
+
+</div>
+
+</body>
+</html>
